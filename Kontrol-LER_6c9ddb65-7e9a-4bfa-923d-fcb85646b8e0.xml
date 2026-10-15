@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kontrolLER guid="6c9ddb65-7e9a-4bfa-923d-fcb85646b8e0" oprettet="2026-09-01 11:09:37">
+	<title>Den gode aflevering - Udvidet</title>
+	<existingFromDB>0</existingFromDB>
+	<fileIdFormat>featureType:fileName:fileExtension</fileIdFormat>
+	<fileCount>11</fileCount>
+	<inputFiles>
+		<inputFile fid="1" id="bilag2_1_el_komponent_polygon:bilag2_1_el_komponent_polygon:gpkg">
+			<file>bilag2_1_el_komponent_polygon.gpkg</file>
+			<fileName>bilag2_1_el_komponent_polygon</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_1_el_komponent_polygon</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>1</featureCount>
+			<featureBounds>
+				<xmin>721856.2593540377</xmin>
+				<ymin>6179689.2632425968</ymin>
+				<xmax>721885.26365256531</xmax>
+				<ymax>6179691.486345862</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="bemaerkning"/>
+				<attribute name="driftsstatus"/>
+				<attribute name="ejerskabsforhold"/>
+				<attribute name="etableringstidspunkt"/>
+				<attribute name="fareklasse"/>
+				<attribute name="niveau"/>
+				<attribute name="noejagtighedsklasse"/>
+				<attribute name="relativniveau"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="type"/>
+				<attribute name="vejledendedybde"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>POLYGON Z ((721856.2986386832 6179689.263242597 -99,721885.2636525653 6179690.687310996 -99,721885.2243679197 6179691.486345862 -99,721856.2593540377 6179690.06227746 -99,721856.2986386832 6179689.263242597 -99))</geometry>
+					<attributes>
+						<bemaerkning>eksisterende</bemaerkning>
+						<type>rørblok</type>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="2" id="bilag2_1_el_komponent_punkt:bilag2_1_el_komponent_punkt:gpkg">
+			<file>bilag2_1_el_komponent_punkt.gpkg</file>
+			<fileName>bilag2_1_el_komponent_punkt</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_1_el_komponent_punkt</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>2</featureCount>
+			<featureBounds>
+				<xmin>721855.87733583967</xmin>
+				<ymin>6179696.6007600119</ymin>
+				<xmax>721885.74762097769</xmax>
+				<ymax>6179696.8468652368</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="bemaerkning"/>
+				<attribute name="driftsstatus"/>
+				<attribute name="ejerskabsforhold"/>
+				<attribute name="etableringstidspunkt"/>
+				<attribute name="fareklasse"/>
+				<attribute name="niveau"/>
+				<attribute name="noejagtighedsklasse"/>
+				<attribute name="relativniveau"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="type"/>
+				<attribute name="vejledendedybde"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>POINT Z (721855.8773358397 6179696.846865237 27.15)</geometry>
+					<attributes>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<niveau>over terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<type>signalmast uden galge</type>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>POINT Z (721885.7476209777 6179696.600760012 24.6)</geometry>
+					<attributes>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<niveau>delvist under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<type>sensor</type>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="3" id="bilag2_1_el_ledning_linje:bilag2_1_el_ledning_linje:gpkg">
+			<file>bilag2_1_el_ledning_linje.gpkg</file>
+			<fileName>bilag2_1_el_ledning_linje</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_1_el_ledning_linje</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>4</featureCount>
+			<featureBounds>
+				<xmin>721835.95860877272</xmin>
+				<ymin>6179667.4844837757</ymin>
+				<xmax>721886.35908076284</xmax>
+				<ymax>6179696.8468652368</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="afdaekning"/>
+				<attribute name="antalkabler"/>
+				<attribute name="bemaerkning"/>
+				<attribute name="driftsstatus"/>
+				<attribute name="ejerskabsforhold"/>
+				<attribute name="etableringstidspunkt"/>
+				<attribute name="fareklasse"/>
+				<attribute name="kabeltype"/>
+				<attribute name="liggeriledning"/>
+				<attribute name="niveau"/>
+				<attribute name="noejagtighedsklasse"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="spaendingsniveau"/>
+				<attribute name="type"/>
+				<attribute name="udvendigdiameter"/>
+				<attribute name="udvendigmateriale"/>
+				<attribute name="vejledendedybde"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>LINESTRING Z (721835.9586087727 6179668.3926814 23.5,721837.3074171222 6179667.484483776 23.5,721838.2965432451 6179667.628356666 23.5,721840.7963347194 6179668.90522857 23.5,721845.4182513303 6179670.847512594 23.5,721849.6804857145 6179672.843748951 23.6,721852.5219753039 6179674.210541412 23.6,721853.6010219834 6179674.6961124195 23.6,721854.805957442 6179675.9550002115 23.6,721855.7770994536 6179677.034046891 23.7,721856.4604956841 6179678.832458024 23.7,721856.6043685746 6179680.990551382 23.8,721856.3166227934 6179685.198833433 23.8,721855.9569405669 6179688.543878139 23.9,721855.9569405669 6179689.335179037 23.9,721856.2267022369 6179689.479051929 23.9)</geometry>
+					<attributes>
+						<afdaekning>føringrør</afdaekning>
+						<antalkabler>2</antalkabler>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<kabeltype>37 x 1,5mm2m. jord</kabeltype>
+						<liggeriledning>ja</liggeriledning>
+						<niveau>under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<spaendingsniveau>0.24</spaendingsniveau>
+						<type>signalkabel</type>
+						<udvendigdiameter>20</udvendigdiameter>
+						<udvendigmateriale>plast</udvendigmateriale>
+						<vejledendedybde>500</vejledendedybde>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>LINESTRING Z (721856.2267022369 6179689.479051929 23.9,721885.3339864175 6179690.899796723 23.7)</geometry>
+					<attributes>
+						<afdaekning>rørblok</afdaekning>
+						<antalkabler>1</antalkabler>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<kabeltype>37 x 1,5mm2m. jord</kabeltype>
+						<niveau>under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<spaendingsniveau>0.24</spaendingsniveau>
+						<type>signalkabel</type>
+						<udvendigdiameter>20</udvendigdiameter>
+						<udvendigmateriale>plast</udvendigmateriale>
+						<vejledendedybde>500</vejledendedybde>
+					</attributes>
+				</feature>
+				<feature fid="3">
+					<geometry>LINESTRING Z (721885.3339864175 6179690.899796723 23.7,721886.3590807628 6179691.025685501 23.7,721886.0713349816 6179692.932001302 23.7,721885.8555256457 6179695.197999328 23.7,721885.7476209777 6179696.600760012 23.7)</geometry>
+					<attributes>
+						<afdaekning>føringrør</afdaekning>
+						<antalkabler>1</antalkabler>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<kabeltype>37 x 1,5mm2m. jord</kabeltype>
+						<liggeriledning>ja</liggeriledning>
+						<niveau>under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<spaendingsniveau>0.24</spaendingsniveau>
+						<type>signalkabel</type>
+						<udvendigdiameter>20</udvendigdiameter>
+						<udvendigmateriale>plast</udvendigmateriale>
+						<vejledendedybde>500</vejledendedybde>
+					</attributes>
+				</feature>
+				<feature fid="4">
+					<geometry>LINESTRING Z (721856.2267022369 6179689.479051929 23.9,721855.9537597391 6179689.630265583 23.9,721855.83366504 6179691.95573567 24,721855.83366504 6179694.575983652 24.1,721855.8773358397 6179696.846865237 24.1)</geometry>
+					<attributes>
+						<afdaekning>føringrør</afdaekning>
+						<antalkabler>1</antalkabler>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<kabeltype>37 x 1,5mm2m. jord</kabeltype>
+						<liggeriledning>ja</liggeriledning>
+						<niveau>under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<spaendingsniveau>0.24</spaendingsniveau>
+						<type>signalkabel</type>
+						<udvendigdiameter>20</udvendigdiameter>
+						<udvendigmateriale>plast</udvendigmateriale>
+						<vejledendedybde>500</vejledendedybde>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="4" id="bilag2_1_foeringsroer_ledning_linje:bilag2_1_foeringsroer_ledning_linje:gpkg">
+			<file>bilag2_1_foeringsroer_ledning_linje.gpkg</file>
+			<fileName>bilag2_1_foeringsroer_ledning_linje</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_1_foeringsroer_ledning_linje</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>3</featureCount>
+			<featureBounds>
+				<xmin>721835.95860877272</xmin>
+				<ymin>6179667.4844837757</ymin>
+				<xmax>721886.35908076284</xmax>
+				<ymax>6179696.8468652368</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="bemaerkning"/>
+				<attribute name="driftsstatus"/>
+				<attribute name="ejerskabsforhold"/>
+				<attribute name="etableringstidspunkt"/>
+				<attribute name="fareklasse"/>
+				<attribute name="forsyningsart"/>
+				<attribute name="liggeriledning"/>
+				<attribute name="niveau"/>
+				<attribute name="noejagtighedsklasse"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="tvaersnitsform"/>
+				<attribute name="udvendigbredde"/>
+				<attribute name="udvendigdiameter"/>
+				<attribute name="udvendighoejde"/>
+				<attribute name="udvendigmateriale"/>
+				<attribute name="vejledendedybde"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>LINESTRING Z (721835.9586087727 6179668.3926814 23.5,721837.3074171222 6179667.484483776 23.5,721838.2965432451 6179667.628356666 23.5,721840.7963347194 6179668.90522857 23.5,721845.4182513303 6179670.847512594 23.5,721849.6804857145 6179672.843748951 23.6,721852.5219753039 6179674.210541412 23.6,721853.6010219834 6179674.6961124195 23.6,721854.805957442 6179675.9550002115 23.6,721855.7770994536 6179677.034046891 23.7,721856.4604956841 6179678.832458024 23.7,721856.6043685746 6179680.990551382 23.8,721856.3166227934 6179685.198833433 23.8,721855.9569405669 6179688.543878139 23.9,721855.9569405669 6179689.335179037 23.9,721856.2267022369 6179689.479051929 23.9)</geometry>
+					<attributes>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<forsyningsart>el</forsyningsart>
+						<niveau>under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<tvaersnitsform>cirkulær</tvaersnitsform>
+						<udvendigdiameter>110</udvendigdiameter>
+						<udvendigmateriale>plast</udvendigmateriale>
+						<vejledendedybde>500</vejledendedybde>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>LINESTRING Z (721885.3339864175 6179690.899796723 23.7,721886.3590807628 6179691.025685501 23.7,721886.0713349816 6179692.932001302 23.7,721885.8555256457 6179695.197999328 23.7,721885.7476209777 6179696.600760012 23.7)</geometry>
+					<attributes>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<forsyningsart>el</forsyningsart>
+						<niveau>under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<tvaersnitsform>cirkulær</tvaersnitsform>
+						<udvendigdiameter>110</udvendigdiameter>
+						<udvendigmateriale>plast</udvendigmateriale>
+						<vejledendedybde>500</vejledendedybde>
+					</attributes>
+				</feature>
+				<feature fid="3">
+					<geometry>LINESTRING Z (721856.2267022369 6179689.479051929 23.9,721855.9537597391 6179689.630265583 23.9,721855.83366504 6179691.95573567 24,721855.83366504 6179694.575983652 24.1,721855.8773358397 6179696.846865237 24.1)</geometry>
+					<attributes>
+						<driftsstatus>i drift</driftsstatus>
+						<ejerskabsforhold>ejet af udleverende ledningsejer</ejerskabsforhold>
+						<etableringstidspunkt>2026-11-01</etableringstidspunkt>
+						<fareklasse>farlig</fareklasse>
+						<forsyningsart>el</forsyningsart>
+						<niveau>under terræn</niveau>
+						<noejagtighedsklasse>&lt;= 0.25 m</noejagtighedsklasse>
+						<tvaersnitsform>cirkulær</tvaersnitsform>
+						<udvendigdiameter>110</udvendigdiameter>
+						<udvendigmateriale>plast</udvendigmateriale>
+						<vejledendedybde>500</vejledendedybde>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="5" id="bilag2_1_omlagtfjernet_komponent_punkt:bilag2_1_omlagtfjernet_komponent_punkt:gpkg">
+			<file>bilag2_1_omlagtfjernet_komponent_punkt.gpkg</file>
+			<fileName>bilag2_1_omlagtfjernet_komponent_punkt</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_1_omlagtfjernet_komponent_punkt</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>8</featureCount>
+			<featureBounds>
+				<xmin>721846.36871021031</xmin>
+				<ymin>6179744.4637697814</ymin>
+				<xmax>721875.85981018352</xmax>
+				<ymax>6179808.4637697032</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="fjernet"/>
+				<attribute name="gml_id"/>
+				<attribute name="objecttype"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>POINT Z (721851.6998102056 6179769.773769757 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.437ec489-fcec-4991-b7f7-08486e317382</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>POINT Z (721870.3298101884 6179771.093769747 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.8b237432-0f7f-4781-a5fe-8daead802fe5</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="3">
+					<geometry>POINT Z (721875.8598101835 6179744.923769778 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.919a77c0-1a53-4461-a744-aea780b6ef29</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="4">
+					<geometry>POINT Z (721873.4898101855 6179771.593769744 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.92b57ccc-91bc-47fd-97cf-9a34c063fe48</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="5">
+					<geometry>POINT Z (721872.8998101862 6179744.463769781 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.e74c8f3e-3f74-4156-a993-6e55dda2ab6f</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="6">
+					<geometry>POINT Z (721854.8598102027 6179770.273769753 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.e91ae8fe-bf11-4618-9834-b1cf5939bd2f</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="7">
+					<geometry>POINT Z (721846.3687102103 6179807.846469706 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.29bc6eff-6d8d-486d-a5d9-0f2174e24a81</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="8">
+					<geometry>POINT Z (721849.6398102075 6179808.463769703 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_komponent_punkt.e8370f7d-2cbd-4980-bfee-df21119b285b</gml_id>
+						<objecttype>ler:Afloebskomponent</objecttype>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="6" id="bilag2_1_omlagtfjernet_ledning_linje:bilag2_1_omlagtfjernet_ledning_linje:gpkg">
+			<file>bilag2_1_omlagtfjernet_ledning_linje.gpkg</file>
+			<fileName>bilag2_1_omlagtfjernet_ledning_linje</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_1_omlagtfjernet_ledning_linje</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>8</featureCount>
+			<featureBounds>
+				<xmin>721846.36881021026</xmin>
+				<ymin>6179744.1992960516</ymin>
+				<xmax>721875.85981018352</xmax>
+				<ymax>6179809.2363888361</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="fjernet"/>
+				<attribute name="gml_id"/>
+				<attribute name="objecttype"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>LINESTRING Z (721873.4898101855 6179771.593769744 -99,721870.3298101884 6179771.093769747 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.71b0cf56-1be5-4256-9f4e-6c058b6d1a38</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>LINESTRING Z (721856.1146530655 6179770.382340399 -99,721854.8598102027 6179770.273769753 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.7565241d-fec1-42ab-84c3-09cd60c08211</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="3">
+					<geometry>LINESTRING Z (721872.8998101862 6179744.463769781 -99,721871.2016104374 6179744.199296052 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.bf3e0d9a-4576-4e1c-8607-f8b9d46730be</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="4">
+					<geometry>LINESTRING Z (721875.8598101835 6179744.923769778 -99,721872.8998101862 6179744.463769781 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.ce48635c-fd6b-4490-b974-dcc5b9976438</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="5">
+					<geometry>LINESTRING Z (721870.3298101884 6179771.093769747 -99,721865.1928101929 6179769.602769751 22.11)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.e13561bd-a1e0-4978-a493-3258ade5d188</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="6">
+					<geometry>LINESTRING Z (721854.8598102027 6179770.273769753 -99,721851.6998102056 6179769.773769757 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.f9cd30a3-3d45-412e-bb61-1fba96e243be</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="7">
+					<geometry>LINESTRING Z (721849.6398102075 6179808.463769703 -99,721846.3688102103 6179807.846769706 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.40240713-fada-438f-b8e4-edc811e1b22c</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+				<feature fid="8">
+					<geometry>LINESTRING Z (721853.0132809666 6179809.236388836 -99,721849.6398102075 6179808.463769703 -99)</geometry>
+					<attributes>
+						<gml_id>64942212.86534.afloeb_ledning_linje.b1eeda0d-be47-4bc4-ae01-12e983f898bb</gml_id>
+						<objecttype>ler:Afloebsledning</objecttype>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="7" id="bilag2_2_afloeb_knude_punkt:bilag2_2_afloeb_knude_punkt:gpkg">
+			<file>bilag2_2_afloeb_knude_punkt.gpkg</file>
+			<fileName>bilag2_2_afloeb_knude_punkt</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_2_afloeb_knude_punkt</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>11</featureCount>
+			<featureBounds>
+				<xmin>721848.63290310523</xmin>
+				<ymin>6179739.1683921991</ymin>
+				<xmax>721876.49468432483</xmax>
+				<ymax>6179806.5494885994</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="afspaerring"/>
+				<attribute name="bemaerkning"/>
+				<attribute name="broend"/>
+				<attribute name="broendform"/>
+				<attribute name="bund_diameter_bredde_mm"/>
+				<attribute name="bund_laengde_mm"/>
+				<attribute name="bundkote"/>
+				<attribute name="daeksel_bstk"/>
+				<attribute name="datoetableret"/>
+				<attribute name="fareklasse"/>
+				<attribute name="knude_type"/>
+				<attribute name="materiale"/>
+				<attribute name="medie"/>
+				<attribute name="navn"/>
+				<attribute name="nedloebsrist_bstk"/>
+				<attribute name="noejagtighed_bundkote"/>
+				<attribute name="noejagtighed_topkote"/>
+				<attribute name="noejagtighed_xy"/>
+				<attribute name="overloeb_type"/>
+				<attribute name="pumpested"/>
+				<attribute name="retnings_regulering"/>
+				<attribute name="rottespaerre_bstk"/>
+				<attribute name="sandfangsbund_bstk"/>
+				<attribute name="separator"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="status"/>
+				<attribute name="topkote"/>
+				<attribute name="vandlaas_bstk"/>
+				<attribute name="ventil"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>POINT (721876.4946843248 6179739.168392199)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>300</bund_diameter_bredde_mm>
+						<bundkote>24.35</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>Beton</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Nej</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>25.8</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>POINT (721872.9860344424 6179740.899010046)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>315</bund_diameter_bredde_mm>
+						<bundkote>23.6</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>PP</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Ja</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>25.7</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="3">
+					<geometry>POINT (721870.9472243754 6179780.489856695)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>300</bund_diameter_bredde_mm>
+						<bundkote>25</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>Beton</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Nej</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.45</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="4">
+					<geometry>POINT (721867.4859886809 6179780.063129004)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>315</bund_diameter_bredde_mm>
+						<bundkote>24.25</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>PP</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Ja</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.35</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="5">
+					<geometry>POINT (721854.541915466 6179778.40363244)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>315</bund_diameter_bredde_mm>
+						<bundkote>24.3</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>PP</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Ja</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.4</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="6">
+					<geometry>POINT (721851.0806797714 6179777.976904749)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>300</bund_diameter_bredde_mm>
+						<bundkote>25.05</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>Beton</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Nej</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.5</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="7">
+					<geometry>POINT (721850.2693082985 6179806.549488599)</geometry>
+					<attributes>
+						<broend>Sandfangsbrønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>415</bund_diameter_bredde_mm>
+						<bundkote>24.6</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>PP</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Ja</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.5</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="8">
+					<geometry>POINT (721850.7473002408 6179798.376103254)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>315</bund_diameter_bredde_mm>
+						<bundkote>24.4</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>PP</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Ja</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.5</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="9">
+					<geometry>POINT (721849.5200263538 6179803.480867701)</geometry>
+					<attributes>
+						<broend>Standardbrønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>300</bund_diameter_bredde_mm>
+						<bundkote>24.69</bundkote>
+						<daeksel_bstk>Ja</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>Beton</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Nej</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Nej</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.5</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="10">
+					<geometry>POINT (721848.6329031052 6179798.123786918)</geometry>
+					<attributes>
+						<broend>Rendestens brønd</broend>
+						<broendform>Cirkulær</broendform>
+						<bund_diameter_bredde_mm>300</bund_diameter_bredde_mm>
+						<bundkote>25.15</bundkote>
+						<daeksel_bstk>Nej</daeksel_bstk>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Brønd</knude_type>
+						<materiale>Beton</materiale>
+						<medie>Regnvand</medie>
+						<nedloebsrist_bstk>Ja</nedloebsrist_bstk>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<rottespaerre_bstk>Nej</rottespaerre_bstk>
+						<sandfangsbund_bstk>Nej</sandfangsbund_bstk>
+						<status>I brug</status>
+						<topkote>26.6</topkote>
+						<vandlaas_bstk>Nej</vandlaas_bstk>
+					</attributes>
+				</feature>
+				<feature fid="11">
+					<geometry>POINT (721849.4734054875 6179803.601258559)</geometry>
+					<attributes>
+						<bundkote>24.85</bundkote>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<knude_type>Retningsregulering</knude_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<retnings_regulering>Kontraventil</retnings_regulering>
+						<status>I brug</status>
+						<topkote>24.85</topkote>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="8" id="bilag2_2_afloeb_konstruktion_linje:bilag2_2_afloeb_konstruktion_linje:gpkg">
+			<file>bilag2_2_afloeb_konstruktion_linje.gpkg</file>
+			<fileName>bilag2_2_afloeb_konstruktion_linje</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_2_afloeb_konstruktion_linje</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>1</featureCount>
+			<featureBounds>
+				<xmin>721849.10903738637</xmin>
+				<ymin>6179806.5832315302</ymin>
+				<xmax>721851.27441523049</xmax>
+				<ymax>6179808.3488294231</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="bassin"/>
+				<attribute name="bemaerkning"/>
+				<attribute name="bundkote_udvendig"/>
+				<attribute name="datoetableret"/>
+				<attribute name="fareklasse"/>
+				<attribute name="konstruktion_type"/>
+				<attribute name="kote"/>
+				<attribute name="kote_type"/>
+				<attribute name="magasin"/>
+				<attribute name="materiale"/>
+				<attribute name="medie"/>
+				<attribute name="navn"/>
+				<attribute name="nedsivning"/>
+				<attribute name="noejagtighed_bundkote"/>
+				<attribute name="noejagtighed_topkote"/>
+				<attribute name="noejagtighed_xy"/>
+				<attribute name="overloeb"/>
+				<attribute name="pumpestation"/>
+				<attribute name="regulering"/>
+				<attribute name="rende_type"/>
+				<attribute name="renseanlaeg"/>
+				<attribute name="saml_kons_beskrivelse"/>
+				<attribute name="saml_kons_type"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="status"/>
+				<attribute name="tank"/>
+				<attribute name="topkote_udvendig"/>
+				<attribute name="udskiller"/>
+				<attribute name="vandspejlskote"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>LINESTRING (721849.1090373864 6179808.348829423,721850.954971674 6179807.027816189,721851.1470149785 6179806.828747419,721851.2744152305 6179806.58323153)</geometry>
+					<attributes>
+						<bundkote_udvendig>26.3</bundkote_udvendig>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<konstruktion_type>Landskabselement med hydraulisk effekt</konstruktion_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<saml_kons_beskrivelse>Kantsten med indløb til regnbed</saml_kons_beskrivelse>
+						<saml_kons_type>Kantsten</saml_kons_type>
+						<status>I brug</status>
+						<topkote_udvendig>26.83</topkote_udvendig>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="9" id="bilag2_2_afloeb_konstruktion_polygon:bilag2_2_afloeb_konstruktion_polygon:gpkg">
+			<file>bilag2_2_afloeb_konstruktion_polygon.gpkg</file>
+			<fileName>bilag2_2_afloeb_konstruktion_polygon</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_2_afloeb_konstruktion_polygon</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>2</featureCount>
+			<featureBounds>
+				<xmin>721846.62447262788</xmin>
+				<ymin>6179799.2620145595</ymin>
+				<xmax>721852.11634427169</xmax>
+				<ymax>6179823.4572509909</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="bassin"/>
+				<attribute name="bemaerkning"/>
+				<attribute name="bundkote_udvendig"/>
+				<attribute name="datoetableret"/>
+				<attribute name="fareklasse"/>
+				<attribute name="konstruktion_type"/>
+				<attribute name="kote"/>
+				<attribute name="kote_type"/>
+				<attribute name="magasin"/>
+				<attribute name="materiale"/>
+				<attribute name="medie"/>
+				<attribute name="navn"/>
+				<attribute name="nedsivning"/>
+				<attribute name="noejagtighed_bundkote"/>
+				<attribute name="noejagtighed_topkote"/>
+				<attribute name="noejagtighed_xy"/>
+				<attribute name="overloeb"/>
+				<attribute name="pumpestation"/>
+				<attribute name="regulering"/>
+				<attribute name="rende_type"/>
+				<attribute name="renseanlaeg"/>
+				<attribute name="saml_kons_beskrivelse"/>
+				<attribute name="saml_kons_type"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="status"/>
+				<attribute name="tank"/>
+				<attribute name="topkote_udvendig"/>
+				<attribute name="udskiller"/>
+				<attribute name="vandspejlskote"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>POLYGON ((721849.0803280151 6179808.2454918735,721850.9262623028 6179806.92447864,721851.1183056072 6179806.725409869,721851.2457058593 6179806.479893981,721851.2732033557 6179806.385349426,721852.1163442717 6179801.731470089,721852.0950030829 6179801.41900739,721852.0018549855 6179801.135009471,721850.6442165007 6179799.2620145595,721849.0803280151 6179808.2454918735))</geometry>
+					<attributes>
+						<bundkote_udvendig>24.9</bundkote_udvendig>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<konstruktion_type>Regnbed</konstruktion_type>
+						<magasin>Bassinmagasin</magasin>
+						<medie>Regnvand</medie>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<status>I brug</status>
+						<topkote_udvendig>26.68</topkote_udvendig>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>POLYGON ((721850.9628776717 6179809.26675966,721849.2237975211 6179808.971800727,721846.6244726279 6179823.124884537,721848.2947555059 6179823.457250991,721850.9628776717 6179809.26675966))</geometry>
+					<attributes>
+						<bundkote_udvendig>23.56</bundkote_udvendig>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<konstruktion_type>Magasin</konstruktion_type>
+						<magasin>Bassinmagasin</magasin>
+						<medie>Regnvand</medie>
+						<noejagtighed_bundkote>+/- 0,25m</noejagtighed_bundkote>
+						<noejagtighed_topkote>+/- 0,25m</noejagtighed_topkote>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<status>I brug</status>
+						<topkote_udvendig>25.06</topkote_udvendig>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="10" id="bilag2_2_afloeb_konstruktion_punkt:bilag2_2_afloeb_konstruktion_punkt:gpkg">
+			<file>bilag2_2_afloeb_konstruktion_punkt.gpkg</file>
+			<fileName>bilag2_2_afloeb_konstruktion_punkt</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_2_afloeb_konstruktion_punkt</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>1</featureCount>
+			<featureBounds>
+				<xmin>721849.48779096862</xmin>
+				<ymin>6179808.0777805038</ymin>
+				<xmax>721849.48779096862</xmax>
+				<ymax>6179808.0777805038</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="bassin"/>
+				<attribute name="bemaerkning"/>
+				<attribute name="bundkote_udvendig"/>
+				<attribute name="datoetableret"/>
+				<attribute name="fareklasse"/>
+				<attribute name="konstruktion_type"/>
+				<attribute name="kote"/>
+				<attribute name="kote_type"/>
+				<attribute name="magasin"/>
+				<attribute name="materiale"/>
+				<attribute name="medie"/>
+				<attribute name="navn"/>
+				<attribute name="nedsivning"/>
+				<attribute name="noejagtighed_bundkote"/>
+				<attribute name="noejagtighed_topkote"/>
+				<attribute name="noejagtighed_xy"/>
+				<attribute name="overloeb"/>
+				<attribute name="pumpestation"/>
+				<attribute name="regulering"/>
+				<attribute name="rende_type"/>
+				<attribute name="renseanlaeg"/>
+				<attribute name="saml_kons_beskrivelse"/>
+				<attribute name="saml_kons_type"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="status"/>
+				<attribute name="tank"/>
+				<attribute name="topkote_udvendig"/>
+				<attribute name="udskiller"/>
+				<attribute name="vandspejlskote"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>POINT (721849.4877909686 6179808.077780504)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<konstruktion_type>Kote</konstruktion_type>
+						<kote>26.68</kote>
+						<kote_type>Hydraulisk kritisk kote</kote_type>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+		<inputFile fid="11" id="bilag2_2_afloeb_ledning_linje:bilag2_2_afloeb_ledning_linje:gpkg">
+			<file>bilag2_2_afloeb_ledning_linje.gpkg</file>
+			<fileName>bilag2_2_afloeb_ledning_linje</fileName>
+			<fileExtension>gpkg</fileExtension>
+			<featureType>bilag2_2_afloeb_ledning_linje</featureType>
+			<featureSRID>25832</featureSRID>
+			<featureCount>12</featureCount>
+			<featureBounds>
+				<xmin>721848.63290310523</xmin>
+				<ymin>6179739.1683921991</ymin>
+				<xmax>721876.49468432483</xmax>
+				<ymax>6179809.6310239797</ymax>
+			</featureBounds>
+			<attributes>
+				<attribute name="bemaerkning"/>
+				<attribute name="datoetableret"/>
+				<attribute name="fareklasse"/>
+				<attribute name="ledning_funktion"/>
+				<attribute name="ledning_kategori"/>
+				<attribute name="ledning_transport"/>
+				<attribute name="ledning_type"/>
+				<attribute name="medie"/>
+				<attribute name="noejagtighed_xy"/>
+				<attribute name="noejagtighed_z_topkote"/>
+				<attribute name="placering"/>
+				<attribute name="roer_bredde_udvendig_mm"/>
+				<attribute name="roer_handelsmaal_mm"/>
+				<attribute name="roer_hoejde_udvendig_mm"/>
+				<attribute name="roer_materiale"/>
+				<attribute name="roer_medfod"/>
+				<attribute name="roer_tvaerprofil"/>
+				<attribute name="sikkerhedshensyn"/>
+				<attribute name="status"/>
+			</attributes>
+			<features>
+				<feature fid="1">
+					<geometry>LINESTRING Z (721876.4946843248 6179739.168392199 24.46,721874.3103614472 6179739.525020085 24.401424762535363,721872.9860344424 6179740.899010046 24.35)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>110</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="2">
+					<geometry>LINESTRING Z (721872.9860344424 6179740.899010046 24.21,721872.7039357444 6179743.022342709 24.160625058976976,721871.2016104374 6179744.199296052 24.11)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>110</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="3">
+					<geometry>LINESTRING Z (721870.9472243754 6179780.489856695 25.11,721867.4859886809 6179780.063129004 25)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>110</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="4">
+					<geometry>LINESTRING Z (721867.4859886809 6179780.063129004 24.86,721864.1314349078 6179777.704273169 24.75)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>110</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="5">
+					<geometry>LINESTRING Z (721851.0806797714 6179777.976904749 25.16,721854.541915466 6179778.40363244 25.05)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>110</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="6">
+					<geometry>LINESTRING Z (721854.541915466 6179778.40363244 24.91,721855.5436278454 6179771.226827311 24.72052314558503,721856.1146530655 6179770.382340399 24.7)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>110</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="7">
+					<geometry>LINESTRING Z (721850.2693082985 6179806.549488599 25.203,721850.2528897604 6179806.747070672 25.203,721850.248514989 6179806.875270682 25.201,721849.9311684273 6179809.63102398 24.512)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>160</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="8">
+					<geometry>LINESTRING Z (721850.2693082985 6179806.549488599 25.179,721850.4293780901 6179806.477916362 25.179,721850.8084357023 6179806.073531188 25.179,721851.7053063182 6179801.677956359 25.177,721851.608519551 6179801.500080129 25.179,721851.4102941673 6179801.287600157 25.183,721851.1820615322 6179801.220208092 25.184,721850.869309154 6179801.281073632 25.185,721850.6681484884 6179801.376126634 25.185,721849.8910689658 6179805.931787167 25.173,721850.1560844543 6179806.402605314 25.17,721850.2693082985 6179806.549488599 25.17)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Drænvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>90</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="9">
+					<geometry>LINESTRING Z (721848.6329031052 6179798.123786918 25.31,721848.8180580738 6179798.176065969 25.305107837911027,721850.4997008506 6179798.280624069 25.25722819247762,721850.7473002408 6179798.376103254 25.25)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>160</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="10">
+					<geometry>LINESTRING Z (721849.5200263538 6179803.480867701 24.85,721849.4734054875 6179803.601258559 24.85,721849.1193132024 6179805.372331618 24.7,721851.3788702564 6179806.768979264 24.64649567740577)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>160</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="11">
+					<geometry>LINESTRING Z (721850.7473002408 6179798.376103254 25.01,721850.7523829261 6179798.585585198 25.004231240052295,721849.7895770874 6179801.221320644 24.921979285969112,721849.5347167185 6179803.24713383 24.8574400165257,721849.5200263538 6179803.480867701 24.85)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>160</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+				<feature fid="12">
+					<geometry>LINESTRING Z (721850.2693082985 6179806.549488599 25.496,721850.5325473832 6179806.623083153 25.496,721851.7240682846 6179806.828487346 24.3,721853.0132809666 6179809.236388836 23.2)</geometry>
+					<attributes>
+						<datoetableret>20261101</datoetableret>
+						<fareklasse>Ikke farlig</fareklasse>
+						<ledning_funktion>Alm. Ledning</ledning_funktion>
+						<ledning_kategori>Stikledning</ledning_kategori>
+						<ledning_transport>Gravitation</ledning_transport>
+						<ledning_type>Ledning</ledning_type>
+						<medie>Regnvand</medie>
+						<noejagtighed_xy>+/- 0,25m</noejagtighed_xy>
+						<noejagtighed_z_topkote>+/- 0,25m</noejagtighed_z_topkote>
+						<placering>Under terræn</placering>
+						<roer_handelsmaal_mm>160</roer_handelsmaal_mm>
+						<roer_materiale>PP</roer_materiale>
+						<roer_medfod>Nej</roer_medfod>
+						<roer_tvaerprofil>Cirkulært</roer_tvaerprofil>
+						<status>I brug</status>
+					</attributes>
+				</feature>
+			</features>
+		</inputFile>
+	</inputFiles>
+</kontrolLER>

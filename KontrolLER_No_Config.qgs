@@ -1,0 +1,999 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUserFull="Casper Bertelsen Jensen" saveDateTime="2026-10-13T11:17:49" version="3.44.9-Solothurn" projectname="" saveUser="BW5Z">
+  <homePath path=""/>
+  <title></title>
+  <transaction mode="Disabled"/>
+  <projectFlags set=""/>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],MEMBER["European Terrestrial Reference Frame 2020"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore."],BBOX[36.53,6,84.01,12.01]],USAGE[SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],AREA["Europe between 6°E and 12°E and approximately 36°30'N to 84°N."],BBOX[36.53,6,84.01,12.01]],ID["EPSG",25832]]</wkt>
+      <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2105</srsid>
+      <srid>25832</srid>
+      <authid>EPSG:25832</authid>
+      <description>ETRS89 / UTM zone 32N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <verticalCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </verticalCrs>
+  <elevation-shading-renderer is-active="0" edl-distance="0.5" combined-method="0" edl-strength="1000" hillshading-is-active="0" hillshading-is-multidirectional="0" light-altitude="45" light-azimuth="315" edl-distance-unit="0" hillshading-z-factor="1" edl-is-active="1"/>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-group name="Indlæste data" checked="Qt::Checked" expanded="1" groupLayer="">
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <layer-tree-layer name="KontrolLER" source="dbname='localDB' host=localhost port=5432 sslmode=disable key='guid' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;ler&quot;.&quot;kontrol_xml_v&quot; (geom)" providerKey="postgres" checked="Qt::Checked" expanded="1" legend_exp="" id="kontrol_xml_7e0cae27_d5a3_4ee5_9dda_e9a9e2ab9ff3" patch_size="-1,-1" legend_split_behavior="0">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group name="Baggrundskort" checked="Qt::Checked" mutually-exclusive="1" expanded="1" groupLayer="" mutually-exclusive-child="-1">
+      <customproperties>
+        <Option type="Map">
+          <Option name="qlrbrowserid" type="QString" value="6AyyI5yUfXQwz35RN3xssPU6PtMC6XoQ"/>
+        </Option>
+      </customproperties>
+    </layer-tree-group>
+    <custom-order enabled="0">
+      <item>kontrol_xml_7e0cae27_d5a3_4ee5_9dda_e9a9e2ab9ff3</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings minScale="0" enabled="0" unit="1" self-snapping="0" intersection-snapping="0" type="1" maxScale="0" tolerance="12" mode="2" scaleDependencyMode="0">
+    <individual-layer-settings>
+      <layer-setting minScale="0" enabled="0" units="1" type="1" id="kontrol_xml_7e0cae27_d5a3_4ee5_9dda_e9a9e2ab9ff3" maxScale="0" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>719954.25974334613420069</xmin>
+      <ymin>6169470.35408745147287846</ymin>
+      <xmax>733604.25974334613420069</xmax>
+      <ymax>6182595.35408745147287846</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],MEMBER["European Terrestrial Reference Frame 2020"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore."],BBOX[36.53,6,84.01,12.01]],USAGE[SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],AREA["Europe between 6°E and 12°E and approximately 36°30'N to 84°N."],BBOX[36.53,6,84.01,12.01]],ID["EPSG",25832]]</wkt>
+        <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2105</srsid>
+        <srid>25832</srid>
+        <authid>EPSG:25832</authid>
+        <description>ETRS89 / UTM zone 32N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendgroup open="true" name="Indlæste data" checked="Qt::Checked">
+      <legendlayer open="true" name="KontrolLER" checked="Qt::Checked" drawingOrder="-1" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="kontrol_xml_7e0cae27_d5a3_4ee5_9dda_e9a9e2ab9ff3" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="true" name="Baggrundskort" checked="Qt::Checked"/>
+  </legend>
+  <mapViewDocks/>
+  <main-annotation-layer minScale="1e+08" refreshOnNotifyEnabled="0" styleCategories="AllStyleCategories" autoRefreshMode="Disabled" type="annotation" refreshOnNotifyMessage="" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" legendPlaceholderImage="">
+    <id>Annotations_b9832525_f7b9_476f_8ead_aefa2053c4af</id>
+    <datasource></datasource>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],MEMBER["European Terrestrial Reference Frame 2020"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore."],BBOX[36.53,6,84.01,12.01]],USAGE[SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],AREA["Europe between 6°E and 12°E and approximately 36°30'N to 84°N."],BBOX[36.53,6,84.01,12.01]],ID["EPSG",25832]]</wkt>
+        <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2105</srsid>
+        <srid>25832</srid>
+        <authid>EPSG:25832</authid>
+        <description>ETRS89 / UTM zone 32N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <dates/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+      <Private>0</Private>
+    </flags>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer autoRefreshMode="Disabled" simplifyMaxScale="1" symbologyReferenceScale="-1" minScale="100000000" readOnly="0" autoRefreshTime="0" labelsEnabled="0" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" geometry="Polygon" wkbType="MultiPolygon" legendPlaceholderImage="" simplifyDrawingHints="1" maxScale="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyLocal="1" refreshOnNotifyMessage="" type="vector">
+      <extent>
+        <xmin>648441.17000000004190952</xmin>
+        <ymin>1170733.95714199519716203</ymin>
+        <xmax>729519.59593747602775693</xmax>
+        <ymax>6181270.94890465680509806</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>10.3568366638011895</xmin>
+        <ymin>10.58381243430290652</ymin>
+        <xmax>12.65488385493311085</xmax>
+        <ymax>55.75432794196325403</ymax>
+      </wgs84extent>
+      <id>kontrol_xml_7e0cae27_d5a3_4ee5_9dda_e9a9e2ab9ff3</id>
+      <datasource>dbname='localDB' host=localhost port=5432 sslmode=disable key='guid' srid=25832 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ler"."kontrol_xml_v" (geom)</datasource>
+      <layername>KontrolLER</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],MEMBER["European Terrestrial Reference Frame 2020"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore."],BBOX[36.53,6,84.01,12.01]],USAGE[SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],AREA["Europe between 6°E and 12°E and approximately 36°30'N to 84°N."],BBOX[36.53,6,84.01,12.01]],ID["EPSG",25832]]</wkt>
+          <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2105</srsid>
+          <srid>25832</srid>
+          <authid>EPSG:25832</authid>
+          <description>ETRS89 / UTM zone 32N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],MEMBER["European Terrestrial Reference Frame 2020"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore."],BBOX[36.53,6,84.01,12.01]],USAGE[SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],AREA["Europe between 6°E and 12°E and approximately 36°30'N to 84°N."],BBOX[36.53,6,84.01,12.01]],ID["EPSG",25832]]</wkt>
+            <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>2105</srsid>
+            <srid>25832</srid>
+            <authid>EPSG:25832</authid>
+            <description>ETRS89 / UTM zone 32N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" crs="EPSG:25832" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxz="0" minz="0" minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal endField="" startExpression="" enabled="0" startField="datooprettet" durationField="" durationUnit="min" accumulate="0" limitMode="0" endExpression="" mode="0" fixedDuration="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation respectLayerSymbol="1" extrusionEnabled="0" showMarkerSymbolInSurfacePlots="0" zscale="1" clamping="Terrain" symbology="Line" binding="Centroid" type="IndividualFeatures" customToleranceEnabled="0" zoffset="0" extrusion="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol frame_rate="10" name="" clip_to_extent="1" alpha="1" type="line" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{4a822a22-4c7a-441e-8026-befe110abc45}" class="SimpleLine">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.6"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol frame_rate="10" name="" clip_to_extent="1" alpha="1" type="fill" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{b3876ed6-75ce-4f7b-98c7-053c9b49bd57}" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="101,64,109,255,rgb:0.3949493,0.2520943,0.4285649,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol frame_rate="10" name="" clip_to_extent="1" alpha="1" type="marker" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{cdeb1e8a-bf38-4191-b372-a19d3a585a2b}" class="SimpleMarker">
+              <Option type="Map">
+                <Option name="angle" type="QString" value="0"/>
+                <Option name="cap_style" type="QString" value="square"/>
+                <Option name="color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="horizontal_anchor_point" type="QString" value="1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="name" type="QString" value="diamond"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="101,64,109,255,rgb:0.3949493,0.2520943,0.4285649,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.2"/>
+                <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="scale_method" type="QString" value="diameter"/>
+                <Option name="size" type="QString" value="3"/>
+                <Option name="size_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="size_unit" type="QString" value="MM"/>
+                <Option name="vertical_anchor_point" type="QString" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 referencescale="-1" type="categorizedSymbol" symbollevels="0" forceraster="0" attr="CASE&#xd;&#xa;&#x9;WHEN arkiler_id IS NULL&#xd;&#xa;&#x9;THEN &quot;aktiv&quot;&#xd;&#xa;END" enableorderby="0">
+        <categories>
+          <category uuid="{c8d2feb8-3d83-47cc-9f2a-4a22e4e18982}" render="true" symbol="0" type="NULL" value="NULL" label="ArkiLER"/>
+          <category uuid="{332e1bfa-4196-4809-a16c-df0122653b86}" render="true" symbol="1" type="string" value="true" label="Aktiv"/>
+          <category uuid="{4a3b88eb-7978-48ba-9b7d-9e313718a0b5}" render="false" symbol="2" type="string" value="false" label="Ikke aktiv"/>
+        </categories>
+        <symbols>
+          <symbol frame_rate="10" name="0" clip_to_extent="1" alpha="1" type="fill" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{034aa763-7b66-4340-a582-adebb50d3145}" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="0,153,0,255,rgb:0,0.6,0,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.46"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="no"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol frame_rate="10" name="1" clip_to_extent="1" alpha="1" type="fill" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{034aa763-7b66-4340-a582-adebb50d3145}" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="225,185,0,255,rgb:0.8820935,0.7248951,0,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.46"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="no"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol frame_rate="10" name="2" clip_to_extent="1" alpha="1" type="fill" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{034aa763-7b66-4340-a582-adebb50d3145}" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="141,90,153,255,rgb:0.5529412,0.3529412,0.6,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="215,48,39,255,rgb:0.8431373,0.1882353,0.1529412,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.46"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="no"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol frame_rate="10" name="0" clip_to_extent="1" alpha="1" type="fill" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{b5b56d71-ddff-40a4-b32b-ca912d940e8d}" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="243,166,178,255,rgb:0.9529412,0.6509804,0.6980392,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.46"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="no"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <rotation/>
+        <sizescale/>
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </data-defined-properties>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+        <selectionSymbol>
+          <symbol frame_rate="10" name="" clip_to_extent="1" alpha="1" type="fill" force_rhr="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" pass="0" id="{e4b14f00-1c5e-4d62-b980-1f5da8892dfe}" class="SimpleFill">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="color" type="QString" value="0,0,255,255,rgb:0,0,1,1"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="offset" type="QString" value="0,0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="outline_color" type="QString" value="35,35,35,255,rgb:0.1372549,0.1372549,0.1372549,1"/>
+                <Option name="outline_style" type="QString" value="solid"/>
+                <Option name="outline_width" type="QString" value="0.26"/>
+                <Option name="outline_width_unit" type="QString" value="MM"/>
+                <Option name="style" type="QString" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </selectionSymbol>
+      </selection>
+      <customproperties>
+        <Option type="Map">
+          <Option name="QFieldSync/action" type="QString" value="offline"/>
+          <Option name="QFieldSync/attachment_naming" type="QString" value="{}"/>
+          <Option name="QFieldSync/attribute_editing_locked_expression" type="invalid"/>
+          <Option name="QFieldSync/cloud_action" type="QString" value="offline"/>
+          <Option name="QFieldSync/feature_addition_locked_expression" type="invalid"/>
+          <Option name="QFieldSync/feature_deletion_locked_expression" type="invalid"/>
+          <Option name="QFieldSync/geometry_editing_locked_expression" type="invalid"/>
+          <Option name="QFieldSync/photo_naming" type="QString" value="{}"/>
+          <Option name="QFieldSync/relationship_maximum_visible" type="QString" value="{}"/>
+          <Option name="QFieldSync/tracking_distance_requirement_minimum_meters" type="int" value="30"/>
+          <Option name="QFieldSync/tracking_erroneous_distance_safeguard_maximum_meters" type="int" value="1"/>
+          <Option name="QFieldSync/tracking_measurement_type" type="int" value="0"/>
+          <Option name="QFieldSync/tracking_time_requirement_interval_seconds" type="int" value="30"/>
+          <Option name="QFieldSync/value_map_button_interface_threshold" type="int" value="0"/>
+          <Option name="dualview/previewExpressions" type="List">
+            <Option type="QString" value="format_date(&quot;datooprettet&quot;, 'dd-MM-yyyy HH:mm') || ' | ' || COALESCE(&quot;titel&quot; || ' (' || &quot;guid&quot; || ')', &quot;guid&quot;)"/>
+          </Option>
+          <Option name="embeddedWidgets/count" type="int" value="0"/>
+          <Option name="variableNames" type="invalid"/>
+          <Option name="variableValues" type="invalid"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" type="double" value="0"/>
+            <Option name="allowedGapsEnabled" type="bool" value="false"/>
+            <Option name="allowedGapsLayer" type="invalid"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="guid" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" type="bool" value="false"/>
+                <Option name="UseHtml" type="bool" value="false"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="aktiv" configurationFlags="NoFlag">
+          <editWidget type="CheckBox">
+            <config>
+              <Option type="Map">
+                <Option name="AllowNullState" type="bool" value="false"/>
+                <Option name="CheckedState" type="invalid"/>
+                <Option name="TextDisplayMethod" type="int" value="0"/>
+                <Option name="UncheckedState" type="invalid"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="datooprettet" configurationFlags="NoFlag">
+          <editWidget type="DateTime">
+            <config>
+              <Option type="Map">
+                <Option name="allow_null" type="bool" value="true"/>
+                <Option name="calendar_popup" type="bool" value="true"/>
+                <Option name="display_format" type="QString" value="dd/MM/yyyy HH:mm"/>
+                <Option name="field_format" type="QString" value="yyyy-MM-dd HH:mm:ss"/>
+                <Option name="field_format_overwrite" type="bool" value="false"/>
+                <Option name="field_iso_format" type="bool" value="false"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="titel" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" type="bool" value="false"/>
+                <Option name="UseHtml" type="bool" value="false"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arkiler_id" configurationFlags="NoFlag">
+          <editWidget type="UniqueValues">
+            <config>
+              <Option type="Map">
+                <Option name="Editable" type="bool" value="true"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="GUID" field="guid" index="0"/>
+        <alias name="Aktiv" field="aktiv" index="1"/>
+        <alias name="Oprettet d." field="datooprettet" index="2"/>
+        <alias name="Titel" field="titel" index="3"/>
+        <alias name="Arkiler ID" field="arkiler_id" index="4"/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="DefaultValue" field="guid"/>
+        <policy policy="DefaultValue" field="datooprettet"/>
+        <policy policy="DefaultValue" field="titel"/>
+        <policy policy="DefaultValue" field="arkiler_id"/>
+      </splitPolicies>
+      <defaults>
+        <default field="guid" applyOnUpdate="0" expression=""/>
+        <default field="aktiv" applyOnUpdate="0" expression=""/>
+        <default field="datooprettet" applyOnUpdate="0" expression=""/>
+        <default field="titel" applyOnUpdate="0" expression=""/>
+        <default field="arkiler_id" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" field="guid" constraints="3" notnull_strength="1" exp_strength="0"/>
+        <constraint unique_strength="0" field="aktiv" constraints="1" notnull_strength="1" exp_strength="0"/>
+        <constraint unique_strength="0" field="datooprettet" constraints="1" notnull_strength="1" exp_strength="0"/>
+        <constraint unique_strength="0" field="titel" constraints="0" notnull_strength="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="arkiler_id" constraints="0" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="guid" desc="" exp=""/>
+        <constraint field="aktiv" desc="" exp=""/>
+        <constraint field="datooprettet" desc="" exp=""/>
+        <constraint field="titel" desc="" exp=""/>
+        <constraint field="arkiler_id" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <actionsetting name="Start/stop edit" action="layer = QgsProject.instance().mapLayer('[%@layer_id%]')&#xd;&#xa;&#xd;&#xa;if layer.isEditable():&#xd;&#xa;    qgis.utils.iface.vectorLayerTools().stopEditing(layer,False)&#xd;&#xa;else:&#xd;&#xa;    qgis.utils.iface.setActiveLayer(layer)&#xd;&#xa;    layer.startEditing()" icon="" type="1" isEnabledOnlyWhenEditable="0" id="{5d38b48b-bac5-4ee3-a01d-4f54d7148b74}" shortTitle="" notificationMessage="" capture="0">
+          <actionScope id="Feature"/>
+        </actionsetting>
+        <actionsetting name="Opdatér rapport" action="''' UPDATE REPORT '''&#xd;&#xa;''' Opdatér rapport '''&#xd;&#xa;import psycopg2&#xd;&#xa;from qgis.utils import (&#xd;&#xa;    iface&#xd;&#xa;)&#xd;&#xa;from qgis.core import (&#xd;&#xa;    QgsProject&#xd;&#xa;)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' PARAMETER SETTINGS '''&#xd;&#xa;&#xd;&#xa;layerId = '[%@layer_id%]'&#xd;&#xa;kontrolGuid = '[%guid%]'&#xd;&#xa;&#xd;&#xa;layer = QgsProject.instance().mapLayer(layerId)&#xd;&#xa;layerUri = layer.dataProvider().uri()&#xd;&#xa;layerUriHost = layerUri.host()&#xd;&#xa;layerUriPort = layerUri.port()&#xd;&#xa;layerUriDatabase = layerUri.database()&#xd;&#xa;layerUriUser = (os.environ['USERNAME']).lower()&#xd;&#xa;layerUriPw = ''&#xd;&#xa;&#xd;&#xa;layerUriSchema = layerUri.schema()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' START OF SCRIPT '''&#xd;&#xa;&#xd;&#xa;dbConnection = psycopg2.connect(&#xd;&#xa;    host=layerUriHost&#xd;&#xa;    ,port=layerUriPort&#xd;&#xa;    ,database=layerUriDatabase&#xd;&#xa;    ,user=layerUriUser&#xd;&#xa;    ,password=layerUriPw&#xd;&#xa;)&#xd;&#xa;&#xd;&#xa;dbCursor = dbConnection.cursor()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;try:&#xd;&#xa;    # Import&#xd;&#xa;    dbSql = f'''&#xd;&#xa;&#x9;&#x9;&#x9;UPDATE {layerUriSchema}.kontrol_xml k&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;SET&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;_html_rapport = {layerUriSchema}.kontrol_outputfile('{kontrolGuid}'::uuid)&#xd;&#xa;&#x9;&#x9;&#x9;WHERE k.guid = '{kontrolGuid}'::uuid;&#xd;&#xa;    '''&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    dbCursor.execute(dbSql)&#xd;&#xa;    dbConnection.commit()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    iface.messageBar().pushMessage(&quot;Rapport opdateret&quot;, kontrolGuid, level=Qgis.Info, duration=5)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;except psycopg2.Error as e:&#xd;&#xa;    print(e.pgerror)&#xd;&#xa;    iface.messageBar().pushMessage(&quot;Fejl&quot;, e.pgerror, level=Qgis.Warning)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;finally:&#xd;&#xa;    dbCursor.close()&#xd;&#xa;    dbConnection.close()&#xd;&#xa;" icon="" type="1" isEnabledOnlyWhenEditable="0" id="{f601a672-9d7a-4b87-8a89-27c95177d138}" shortTitle="Opdatér rapport" notificationMessage="" capture="0">
+          <actionScope id="Form"/>
+        </actionsetting>
+        <actionsetting name="Filtrér lag / Fjern filter" action="''' FILTER LAYER '''&#xd;&#xa;''' Filtrér lag / Fjern filter '''&#xd;&#xa;from qgis.core import (&#xd;&#xa;    QgsProject&#xd;&#xa;)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' PARAMETER SETTINGS '''&#xd;&#xa;&#xd;&#xa;layerId = '[%@layer_id%]'&#xd;&#xa;kontrolGuid = '[%guid%]'&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' START OF SCRIPT '''&#xd;&#xa;&#xd;&#xa;layer = QgsProject.instance().mapLayer(layerId)&#xd;&#xa;&#xd;&#xa;if layer.subsetString() == '':&#xd;&#xa;    layer.setSubsetString(f'guid = \'{kontrolGuid}\'')&#xd;&#xa;else:&#xd;&#xa;    layer.setSubsetString(None)" icon="" type="1" isEnabledOnlyWhenEditable="0" id="{14d9e2c9-d751-4341-9145-52a5218bf6d8}" shortTitle="Filtrér lag / Fjern filter" notificationMessage="" capture="0">
+          <actionScope id="Feature"/>
+        </actionsetting>
+        <actionsetting name="Åbn rapport" action="''' OPEN REPORT '''&#xd;&#xa;''' Åbn rapport '''&#xd;&#xa;import os&#xd;&#xa;import psycopg2&#xd;&#xa;from qgis.utils import (&#xd;&#xa;    iface&#xd;&#xa;)&#xd;&#xa;from qgis.core import (&#xd;&#xa;    QgsProject&#xd;&#xa;)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' PARAMETER SETTINGS '''&#xd;&#xa;&#xd;&#xa;layerId = '[%@layer_id%]'&#xd;&#xa;kontrolGuid = '[%guid%]'&#xd;&#xa;&#xd;&#xa;# reportOutput = f'{os.environ['USERPROFILE']}\Desktop\KontrolLER.html'&#xd;&#xa;reportOutput = f'{os.environ['TEMP']}\KontrolLER.html'&#xd;&#xa;&#xd;&#xa;layer = QgsProject.instance().mapLayer(layerId)&#xd;&#xa;layerUri = layer.dataProvider().uri()&#xd;&#xa;layerUriHost = layerUri.host()&#xd;&#xa;layerUriPort = layerUri.port()&#xd;&#xa;layerUriDatabase = layerUri.database()&#xd;&#xa;layerUriUser = (os.environ['USERNAME']).lower()&#xd;&#xa;layerUriPw = ''&#xd;&#xa;&#xd;&#xa;layerUriSchema = layerUri.schema()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' START OF SCRIPT '''&#xd;&#xa;&#xd;&#xa;dbConnection = psycopg2.connect(&#xd;&#xa;    host=layerUriHost&#xd;&#xa;    ,port=layerUriPort&#xd;&#xa;    ,database=layerUriDatabase&#xd;&#xa;    ,user=layerUriUser&#xd;&#xa;    ,password=layerUriPw&#xd;&#xa;)&#xd;&#xa;&#xd;&#xa;dbCursor = dbConnection.cursor()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;try:&#xd;&#xa;    dbSql = f'''&#xd;&#xa;&#x9;&#x9;&#x9;SELECT&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;k._html_rapport&#xd;&#xa;&#x9;&#x9;&#x9;FROM {layerUriSchema}.kontrol_xml k&#xd;&#xa;&#x9;&#x9;&#x9;WHERE k.guid = '{kontrolGuid}'::uuid;&#xd;&#xa;    '''&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    dbCursor.execute(dbSql)&#xd;&#xa;    dbConnection.commit()&#xd;&#xa;&#xd;&#xa;    htmlReport = dbCursor.fetchone()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    if htmlReport[0] is None:&#xd;&#xa;&#xd;&#xa;        dbSqlUpt = f'''&#xd;&#xa;                UPDATE {layerUriSchema}.kontrol_xml k&#xd;&#xa;                    SET&#xd;&#xa;                        _html_rapport = {layerUriSchema}.kontrol_outputfile('{kontrolGuid}'::uuid)&#xd;&#xa;                WHERE k.guid = '{kontrolGuid}'::uuid;&#xd;&#xa;        '''&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        dbCursor.execute(dbSqlUpt)&#xd;&#xa;        dbConnection.commit()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        dbCursor.execute(dbSql)&#xd;&#xa;        dbConnection.commit()&#xd;&#xa;&#xd;&#xa;        htmlReport = dbCursor.fetchone()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    with open(reportOutput, &quot;w&quot;, encoding=&quot;utf-8&quot;) as f:&#xd;&#xa;        f.write(htmlReport[0])&#xd;&#xa;&#xd;&#xa;        os.startfile(reportOutput)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;except psycopg2.Error as e:&#xd;&#xa;    print(e.pgerror)&#xd;&#xa;    iface.messageBar().pushMessage(&quot;Fejl&quot;, e.pgerror, level=Qgis.Warning)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;finally:&#xd;&#xa;    dbCursor.close()&#xd;&#xa;    dbConnection.close()&#xd;&#xa;" icon="" type="1" isEnabledOnlyWhenEditable="0" id="{c13e5ed7-3fa1-429f-ab93-29f348797f70}" shortTitle="Åbn rapport" notificationMessage="" capture="0">
+          <actionScope id="Feature"/>
+          <actionScope id="Form"/>
+        </actionsetting>
+        <actionsetting name="Indlæs data" action="''' LOAD DATA '''&#xd;&#xa;''' Indlæs data '''&#xd;&#xa;import psycopg2&#xd;&#xa;from qgis.utils import (&#xd;&#xa;    iface&#xd;&#xa;)&#xd;&#xa;from qgis.core import (&#xd;&#xa;    QgsProject&#xd;&#xa;    ,QgsVectorLayer&#xd;&#xa;    ,QgsDataSourceUri&#xd;&#xa;)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' PARAMETER SETTINGS '''&#xd;&#xa;&#xd;&#xa;layerId = '[%@layer_id%]'&#xd;&#xa;kontrolGuid = '[%guid%]'&#xd;&#xa;kontrolGroup = '''[%format_date(&quot;datooprettet&quot;, 'dd-MM-yyyy HH:mm') || ' | ' || COALESCE(&quot;titel&quot; || ' (' || &quot;guid&quot; || ')', &quot;guid&quot;)%]'''&#xd;&#xa;&#xd;&#xa;# layerId = 'kontrol_xml_7e0cae27_d5a3_4ee5_9dda_e9a9e2ab9ff3'&#xd;&#xa;# kontrolGuid = 'c09026d6-77d9-4034-8a6c-72b05e550681'&#xd;&#xa;# kontrolGroup = '12-01-2026 08:38 | c09026d6-77d9-4034-8a6c-72b05e550681'&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;layer = QgsProject.instance().mapLayer(layerId)&#xd;&#xa;layerUri = layer.dataProvider().uri()&#xd;&#xa;layerUriHost = layerUri.host()&#xd;&#xa;layerUriPort = layerUri.port()&#xd;&#xa;layerUriDatabase = layerUri.database()&#xd;&#xa;layerUriUser = (os.environ['USERNAME']).lower()&#xd;&#xa;layerUriPw = ''&#xd;&#xa;&#xd;&#xa;layerUriSchema = layerUri.schema()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;''' START OF SCRIPT '''&#xd;&#xa;&#xd;&#xa;dbConnection = psycopg2.connect(&#xd;&#xa;    host=layerUriHost&#xd;&#xa;    ,port=layerUriPort&#xd;&#xa;    ,database=layerUriDatabase&#xd;&#xa;    ,user=layerUriUser&#xd;&#xa;    ,password=layerUriPw&#xd;&#xa;)&#xd;&#xa;&#xd;&#xa;dbCursor = dbConnection.cursor()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;try:&#xd;&#xa;    # Find data&#xd;&#xa;    dbSql = f'''SELECT&#xd;&#xa;                    table_name&#xd;&#xa;                    ,layer_title_pretty&#xd;&#xa;                FROM {layerUriSchema}.kontrol_inputfiles_features_qgis('{kontrolGuid}'::uuid);'''&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    dbCursor.execute(dbSql)&#xd;&#xa;    dbConnection.commit()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    dbResult = dbCursor.fetchall()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    if dbResult == []:&#xd;&#xa;        iface.messageBar().pushMessage(&quot;Ingen data fundet&quot;, None, level=Qgis.Warning)&#xd;&#xa;&#xd;&#xa;    # Data found, continue&#xd;&#xa;    else:&#xd;&#xa;        layerRoot = QgsProject.instance().layerTreeRoot()&#xd;&#xa;        layerGroup = QgsLayerTreeGroup(kontrolGroup)&#xd;&#xa;        layerGroupPosition = 0&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        layerRoot.insertChildNode(layerGroupPosition, layerGroup)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        for i in dbResult:&#xd;&#xa;            dsTableName = i[0]&#xd;&#xa;            dsLayerName = i[1]&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;            dsUri = QgsDataSourceUri()&#xd;&#xa;            dsUri.setConnection(&#xd;&#xa;                layerUriHost&#xd;&#xa;                ,layerUriPort&#xd;&#xa;                ,layerUriDatabase&#xd;&#xa;                ,layerUriUser&#xd;&#xa;                ,layerUriPw&#xd;&#xa;            )&#xd;&#xa;&#xd;&#xa;            dsUri.setDataSource(&#xd;&#xa;                layerUriSchema&#xd;&#xa;                ,dsTableName&#xd;&#xa;                ,'geom'&#xd;&#xa;                ,None&#xd;&#xa;                ,'feature_fid'&#xd;&#xa;            )&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;            dsLayer = QgsVectorLayer(dsUri.uri(False), dsLayerName, layer.dataProvider().name())&#xd;&#xa;            dsMemoryLayer = dsLayer.materialize(QgsFeatureRequest().setFilterFids(dsLayer.allFeatureIds()))&#xd;&#xa;            QgsProject.instance().addMapLayer(dsMemoryLayer, False)&#xd;&#xa;            layerGroup.addLayer(dsMemoryLayer)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        # Find data&#xd;&#xa;        dbSql = f'''SELECT {layerUriSchema}.kontrol_inputfiles_features_qgis_clear('{kontrolGuid}'::uuid);'''&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        dbCursor.execute(dbSql)&#xd;&#xa;        dbConnection.commit()&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        iface.messageBar().pushMessage(&quot;Data indlæst&quot;, None, level=Qgis.Info, duration=5)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;except psycopg2.Error as e:&#xd;&#xa;    print(e.pgerror)&#xd;&#xa;    iface.messageBar().pushMessage(&quot;Fejl&quot;, e.pgerror, level=Qgis.Warning)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;finally:&#xd;&#xa;    dbCursor.close()&#xd;&#xa;    dbConnection.close()&#xd;&#xa;" icon="" type="1" isEnabledOnlyWhenEditable="0" id="{70c7f6a3-ecb8-4b22-b7a1-8cf27d52b5a0}" shortTitle="Indlæs data" notificationMessage="" capture="0">
+          <actionScope id="Feature"/>
+          <actionScope id="Form"/>
+        </actionsetting>
+      </attributeactions>
+      <attributetableconfig sortExpression="&quot;datooprettet&quot;" sortOrder="1" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="guid" hidden="0" type="field" width="-1"/>
+          <column name="aktiv" hidden="0" type="field" width="-1"/>
+          <column name="datooprettet" hidden="0" type="field" width="-1"/>
+          <column name="titel" hidden="0" type="field" width="-1"/>
+          <column name="arkiler_id" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>tablayout</editorlayout>
+      <attributeEditorForm>
+        <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+          <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+        </labelStyle>
+        <attributeEditorContainer name="KontrolLER" groupBox="0" visibilityExpressionEnabled="0" verticalStretch="0" type="Tab" visibilityExpression="" showLabel="1" collapsed="0" columnCount="1" horizontalStretch="0" collapsedExpression="" collapsedExpressionEnabled="0">
+          <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+            <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+          </labelStyle>
+          <attributeEditorContainer name="" groupBox="0" visibilityExpressionEnabled="0" verticalStretch="0" type="Row" visibilityExpression="" showLabel="1" collapsed="0" columnCount="1" horizontalStretch="0" collapsedExpression="" collapsedExpressionEnabled="0">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+            </labelStyle>
+            <attributeEditorAction name="{00000000-0000-0000-0000-000000000000}" ActionUUID="{f601a672-9d7a-4b87-8a89-27c95177d138}" verticalStretch="0" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorAction>
+            <attributeEditorAction name="{00000000-0000-0000-0000-000000000000}" ActionUUID="{c13e5ed7-3fa1-429f-ab93-29f348797f70}" verticalStretch="0" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorAction>
+            <attributeEditorAction name="{00000000-0000-0000-0000-000000000000}" ActionUUID="{70c7f6a3-ecb8-4b22-b7a1-8cf27d52b5a0}" verticalStretch="0" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorAction>
+          </attributeEditorContainer>
+          <attributeEditorContainer name="" groupBox="0" visibilityExpressionEnabled="0" verticalStretch="0" type="Row" visibilityExpression="" showLabel="1" collapsed="0" columnCount="1" horizontalStretch="0" collapsedExpression="" collapsedExpressionEnabled="0">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+            </labelStyle>
+            <attributeEditorField name="guid" verticalStretch="0" index="0" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField name="datooprettet" verticalStretch="0" index="2" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField name="aktiv" verticalStretch="0" index="1" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+          <attributeEditorContainer name="" groupBox="0" visibilityExpressionEnabled="0" verticalStretch="0" type="Row" visibilityExpression="" showLabel="1" collapsed="0" columnCount="1" horizontalStretch="0" collapsedExpression="" collapsedExpressionEnabled="0">
+            <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+              <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+            </labelStyle>
+            <attributeEditorField name="titel" verticalStretch="0" index="3" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorField>
+            <attributeEditorField name="arkiler_id" verticalStretch="0" index="4" showLabel="1" horizontalStretch="0">
+              <labelStyle labelColor="" overrideLabelFont="0" overrideLabelColor="0">
+                <labelFont underline="0" italic="0" strikethrough="0" style="" bold="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+              </labelStyle>
+            </attributeEditorField>
+          </attributeEditorContainer>
+        </attributeEditorContainer>
+      </attributeEditorForm>
+      <editable>
+        <field name="aktiv" editable="1"/>
+        <field name="arkiler_id" editable="1"/>
+        <field name="datooprettet" editable="0"/>
+        <field name="guid" editable="0"/>
+        <field name="titel" editable="0"/>
+      </editable>
+      <labelOnTop>
+        <field name="aktiv" labelOnTop="1"/>
+        <field name="arkiler_id" labelOnTop="1"/>
+        <field name="datooprettet" labelOnTop="1"/>
+        <field name="guid" labelOnTop="1"/>
+        <field name="titel" labelOnTop="1"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field name="aktiv" reuseLastValue="0"/>
+        <field name="arkiler_id" reuseLastValue="0"/>
+        <field name="datooprettet" reuseLastValue="0"/>
+        <field name="guid" reuseLastValue="0"/>
+        <field name="titel" reuseLastValue="0"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>format_date("datooprettet", 'dd-MM-yyyy HH:mm') || ' | ' || COALESCE("titel" || ' (' || "guid" || ')', "guid")</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="kontrol_xml_7e0cae27_d5a3_4ee5_9dda_e9a9e2ab9ff3"/>
+  </layerorder>
+  <labelEngineSettings/>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">128</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <ScaleMethod type="QString">HorizontalMiddle</ScaleMethod>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawLabelMetrics type="bool">false</DrawLabelMetrics>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255,rgb:1,0,0,1</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <dates>
+      <date type="Created" value="2026-01-07T12:29:11"/>
+    </dates>
+    <author>Casper Bertelsen Jensen</author>
+    <creation>2026-01-07T12:29:11</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <mapViewDocks3D/>
+  <Bookmarks/>
+  <Sensors/>
+  <ProjectViewSettings UseProjectScales="0" rotation="0">
+    <Scales/>
+    <DefaultViewExtent ymax="6182595.35408745147287846" xmax="737820.39290595811326057" ymin="6169470.35408745147287846" xmin="715738.12658073415514082">
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["ETRS89 / UTM zone 32N",BASEGEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],MEMBER["European Terrestrial Reference Frame 2020"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 32N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",9,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Europe between 6°E and 12°E: Austria; Denmark - onshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore; Spain - offshore."],BBOX[36.53,6,84.01,12.01]],USAGE[SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],AREA["Europe between 6°E and 12°E and approximately 36°30'N to 84°N."],BBOX[36.53,6,84.01,12.01]],ID["EPSG",25832]]</wkt>
+        <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2105</srsid>
+        <srid>25832</srid>
+        <authid>EPSG:25832</authid>
+        <description>ETRS89 / UTM zone 32N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectStyleSettings colorModel="Rgb" projectStyleId="attachment:///msjFQv_styles.db" DefaultSymbolOpacity="1" RandomizeDefaultSymbolColor="1" iccProfileId="attachment:///QGIS3-DTXPHo">
+    <databases/>
+  </ProjectStyleSettings>
+  <ProjectTimeSettings timeStepUnit="h" cumulativeTemporalRange="0" totalMovieFrames="100" timeStep="1" frameRate="1"/>
+  <ElevationProperties FilterInvertSlider="0">
+    <terrainProvider type="flat">
+      <TerrainProvider scale="1" offset="0"/>
+    </terrainProvider>
+  </ElevationProperties>
+  <ProjectDisplaySettings CoordinateAxisOrder="Default" CoordinateType="MapCrs">
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" type="int" value="6"/>
+        <Option name="direction_format" type="int" value="0"/>
+        <Option name="rounding_type" type="int" value="0"/>
+        <Option name="show_plus" type="bool" value="false"/>
+        <Option name="show_thousand_separator" type="bool" value="true"/>
+        <Option name="show_trailing_zeros" type="bool" value="false"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </BearingFormat>
+    <GeographicCoordinateFormat id="geographiccoordinate">
+      <Option type="Map">
+        <Option name="angle_format" type="QString" value="DecimalDegrees"/>
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" type="int" value="6"/>
+        <Option name="rounding_type" type="int" value="0"/>
+        <Option name="show_leading_degree_zeros" type="bool" value="false"/>
+        <Option name="show_leading_zeros" type="bool" value="false"/>
+        <Option name="show_plus" type="bool" value="false"/>
+        <Option name="show_suffix" type="bool" value="false"/>
+        <Option name="show_thousand_separator" type="bool" value="true"/>
+        <Option name="show_trailing_zeros" type="bool" value="false"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </GeographicCoordinateFormat>
+    <CoordinateCustomCrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </CoordinateCustomCrs>
+  </ProjectDisplaySettings>
+  <ProjectGpsSettings autoCommitFeatures="0" destinationFollowsActiveLayer="1" destinationLayer="" autoAddTrackVertices="0">
+    <timeStampFields/>
+  </ProjectGpsSettings>
+</qgis>
